@@ -8,6 +8,10 @@ header {
     border-bottom: 1px ridge #000000;
 }
 
+header {
+    width: 100%;
+}
+
 header img {
     float: left;
 }
@@ -41,6 +45,28 @@ h2, h3 {
 
 .table {
     font-family: 'Patrick Hand', cursive;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+ .Tables {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+#table1 {
+    float: left;
+}
+
+#table2 {
+    float: left;
 }
 
 ul, li {
