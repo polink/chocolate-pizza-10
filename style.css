@@ -7,8 +7,7 @@ body {
 header {
     content: " ";
     display: block;
-    border-bottom: 1px ridge #000000;
-    width: 100%;
+    border-bottom: 10px dotted #000000;
 }
 
 header img {
@@ -27,6 +26,11 @@ h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     margin: 0px;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    width:960px;
 }
 
 h2, h3 {
@@ -66,6 +70,7 @@ h2, h3 {
 }
 
  .Tables {
+    font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -94,6 +99,10 @@ li button {
     margin-right: 2em;
 }
 
+main {
+    border-bottom: 10px dotted black;
+}
+
 footer img {
     float: left;
 }
@@ -103,7 +112,7 @@ footer button {
 }
 
 #footLogo { 
-    /* placeholder, need to align footer logo to center and make it appear "above" the footer */
+    /* border-middle: 10px ridge black; */
 }
 
 #copyright {
