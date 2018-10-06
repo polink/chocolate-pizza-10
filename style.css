@@ -2,6 +2,12 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
+header {
+    content: " ";
+    display: block;
+    border-bottom: 1px ridge #000000;
+}
+
 header img {
     float: left;
 }
@@ -12,6 +18,12 @@ header img {
 
 nav {
     float: right;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin: 0px;
 }
 
 h2, h3 {
