@@ -1,16 +1,9 @@
-body {
-    font-family: 'Noto Serif', serif;
-}
-
 header {
     content: " ";
     display: block;
-    border-bottom: 1px ridge #000000;
+    border-bottom: 10px dotted #000000;
 }
 
-header {
-    width: 100%;
-}
 
 header img {
     float: left;
@@ -30,6 +23,11 @@ h1 {
     margin: 0px;
 }
 
+body {
+    font-family: 'Noto Serif', serif;
+    width:960px;
+}
+
 h2, h3 {
     text-transform: uppercase;
     color: grey;
@@ -40,11 +38,6 @@ h2, h3 {
     float: right;
     text-transform: uppercase;
     color: grey;
-    display: 
-}
-
-.table {
-    font-family: 'Patrick Hand', cursive;
 }
 
 .container {
@@ -54,6 +47,7 @@ h2, h3 {
 }
 
  .Tables {
+    font-family: 'Patrick Hand', cursive;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -82,6 +76,10 @@ li button {
     margin-right: 2em;
 }
 
+main {
+    border-bottom: 10px dotted black;
+}
+
 footer img {
     float: left;
 }
@@ -91,7 +89,7 @@ footer button {
 }
 
 #footLogo { 
-    /* placeholder, need to align footer logo to center and make it appear "above" the footer */
+    /* border-middle: 10px ridge black; */
 }
 
 #copyright {
