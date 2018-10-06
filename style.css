@@ -1,0 +1,16 @@
+ul, li {
+    list-style-type: none;
+}
+
+li {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li button {
+    margin-right: 2em;
+}
+
+#copyright {
+    text-align: center
+}
