@@ -1,11 +1,11 @@
-@font-face {
-    font-family: 'Yellowtail', cursive;
-    font-family: 'Patrick Hand', cursive;
-    font-family: 'Strait', sans-serif;
-    font-family: 'Oswald', sans-serif;
+body {
     font-family: 'Noto Serif', serif;
-    src: url('https://fonts.googleapis.com/css?family=Yellowtail');
+}
 
+header {
+    content: " ";
+    display: block;
+    border-bottom: 1px ridge #000000;
 }
 
 header {
@@ -24,8 +24,27 @@ nav {
     float: right;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    color: grey;
+    font-family: 'Strait', sans-serif;
+}
+
 #print {
     float: right;
+    text-transform: uppercase;
+    color: grey;
+    display: 
+}
+
+.table {
+    font-family: 'Patrick Hand', cursive;
 }
 
 .container {
@@ -63,14 +82,19 @@ li button {
     margin-right: 2em;
 }
 
+footer img {
+    float: left;
+}
+
 footer button {
     float: right;
 }
 
 #footLogo { 
-    /* placeholder, need to align footer logo to center and make it appear "above" the footer line */
+    /* placeholder, need to align footer logo to center and make it appear "above" the footer */
 }
 
 #copyright {
     text-align: center;
+    color: gray;
 }
