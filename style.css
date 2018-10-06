@@ -1,14 +1,13 @@
 body {
     font-family: 'Noto Serif', serif;
+    width: 960px;
+    margin: auto;
 }
 
 header {
     content: " ";
     display: block;
     border-bottom: 1px ridge #000000;
-}
-
-header {
     width: 100%;
 }
 
@@ -36,11 +35,24 @@ h2, h3 {
     font-family: 'Strait', sans-serif;
 }
 
+.articlehead {
+    display: block
+}
+
 #print {
     float: right;
+
+}
+
+#printText {
     text-transform: uppercase;
     color: grey;
-    display: 
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+#cake {
+    width: 100%;
 }
 
 .table {
