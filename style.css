@@ -1,13 +1,10 @@
-body {
-    font-family: 'Noto Serif', serif;
-    width: 960px;
-    margin: auto;
-}
-
 header {
-    content: " ";
-    display: block;
-    border-bottom: 10px dotted #000000;
+    /* content: " "; */
+    /* display: block; */
+    /* border-bottom: 10px dotted #000000; */
+    width: 901px;
+    height: 65px;
+    margin: 45px auto 0 auto;
 }
 
 header img {
@@ -30,7 +27,8 @@ h1 {
 
 body {
     font-family: 'Noto Serif', serif;
-    width:960px;
+    width: 960px;
+    margin: auto;
 }
 
 h2, h3 {
