@@ -9,14 +9,45 @@ header {
 
 header img {
     float: left;
+    margin-right: 10px;
 }
+/* 
+header p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+} */
 
 #topHead {
     font-family: 'Yellowtail', cursive;
+    font-size: 42px;
+    margin: -5px;
+}
+
+header div div {
+    float: left;
+    width: 170px;
 }
 
 nav {
     float: right;
+    width: 50%;
+}
+
+nav img {
+    margin-right: 2px;
+}
+
+nav div {
+    float: right;
+    width: 160px;
+    height: 24px;
+    margin-right: 6px;
+}
+
+nav section {
+    float: right;
+    width: 55px;
+    height: 24px;
 }
 
 h1 {
@@ -27,10 +58,19 @@ h1 {
 
 body {
     font-family: 'Noto Serif', serif;
-    width: 960px;
+    width: 901px;
     margin: auto;
 }
-
+/* found this code on:
+https://stackoverflow.com/questions/23878398/diagonal-stripes-that-are-1px-wide
+had reference to:
+http://jsfiddle.net/SR4gL/1372/
+*/
+#line {
+    height: 10px;
+    background-image: repeating-linear-gradient(
+    45deg, black, black 1px, transparent 1px, transparent 3px)
+}
 h2, h3 {
     text-transform: uppercase;
     color: grey;
@@ -95,10 +135,6 @@ li {
 
 li button {
     margin-right: 2em;
-}
-
-main {
-    border-bottom: 10px dotted black;
 }
 
 footer img {
